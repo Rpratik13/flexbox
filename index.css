@@ -1,3 +1,36 @@
-h1 {
-  color : red;
+.container-1 {
+  display : flex;
+  /* align-items : flex-start; */
+  /* align-items : flex-end; */
+  align-items : center;
+}
+
+.container-2 {
+  display : flex;
+  justify-content : space-between;
+}
+
+.container-1 div,
+.container-2 div {
+  border  : 1px #ccc solid;
+  padding : 10px;
+}
+
+.container-2 .box {
+  width : 30%;
+}
+
+.box-1 {
+  flex : 2;
+  order : 1;
+}
+
+.box-2 {
+  flex : 1;
+  order : 2;
+}
+
+.box-3 {
+  flex : 1;
+  order : 0;
 }
